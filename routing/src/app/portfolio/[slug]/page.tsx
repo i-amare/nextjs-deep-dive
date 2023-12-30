@@ -16,7 +16,7 @@ export default function Project({
 
 	return (
 		<div>
-			<h1 className='text-4xl font-bold'>Project</h1>
+			<h1 className='text-4xl font-bold'>Project: {params.slug}</h1>
 			<h2>Path: {params.slug}</h2>
 			<h2>ID: {searchParams.id}</h2>
 		</div>
