@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 
 export type EventItem = {
 	id: string;
-	title: String;
+	title: string;
 	description: string;
 	location: string;
 	date: string;
